@@ -1,0 +1,92 @@
+export const featuredRecipes = [
+  {
+    id: 1,
+    title: "Spicy Pasta",
+    description: "A delicious and spicy pasta dish that's quick to make and sure to impress your guests.",
+    image: "/recipe-master/images/recipes/pasta.png",
+    cookingTime: "25 mins",
+    calories: "320 cal",
+    servings: "4 servings",
+    tags: ["Spicy", "Easy"],
+    rating: 4.5,
+  },
+  {
+    id: 2,
+    title: "Chocolate Cake",
+    description: "Indulge in this rich, moist chocolate cake that's perfect for any celebration or dessert craving.",
+    image: "/images/recipes/cake.png",
+    cookingTime: "60 mins",
+    calories: "450 cal",
+    servings: "8 servings",
+    tags: ["Dessert", "Popular"],
+    rating: 5,
+  },
+  {
+    id: 3,
+    title: "Grilled Salmon",
+    description: "Healthy and flavorful grilled salmon with lemon and herbs, perfect for a nutritious dinner.",
+    image: "/images/recipes/salmon.png",
+    cookingTime: "20 mins",
+    calories: "280 cal",
+    servings: "2 servings",
+    tags: ["Seafood", "Healthy"],
+    rating: 4,
+  },
+  {
+    id: 4,
+    title: "Vegetable Curry",
+    description: "A flavorful and aromatic vegetable curry with coconut milk and fragrant spices.",
+    image: "/images/recipes/curry.png",
+    cookingTime: "35 mins",
+    calories: "280 cal",
+    servings: "4 servings",
+    tags: ["Vegetarian", "Spicy"],
+    rating: 4,
+  },
+  {
+    id: 5,
+    title: "Avocado Toast",
+    description: "Creamy avocado spread on toasted sourdough bread, topped with cherry tomatoes and microgreens.",
+    image: "/images/recipes/avocado-toast.png",
+    cookingTime: "10 mins",
+    calories: "220 cal",
+    servings: "2 servings",
+    tags: ["Vegan", "Breakfast"],
+    rating: 4.5,
+  },
+  {
+    id: 6,
+    title: "Chicken Stir Fry",
+    description: "A quick and delicious chicken stir fry with colorful vegetables and a savory sauce.",
+    image: "/images/recipes/chicken-stir-fry.png",
+    cookingTime: "25 mins",
+    calories: "310 cal",
+    servings: "4 servings",
+    tags: ["Non-Veg", "Quick"],
+    rating: 5,
+  },
+]
+
+export const categories = [
+  { id: 1, name: "Meat", icon: "fas fa-drumstick-bite", color: "danger" },
+  { id: 2, name: "Vegan", icon: "fas fa-leaf", color: "success" },
+  { id: 3, name: "Dairy", icon: "fas fa-cheese", color: "warning" },
+  { id: 4, name: "Seafood", icon: "fas fa-fish", color: "info" },
+  { id: 5, name: "Bakery", icon: "fas fa-bread-slice", color: "primary" },
+  { id: 6, name: "Desserts", icon: "fas fa-ice-cream", color: "secondary" },
+]
+
+const recipes = [
+  {
+    id: 1,
+    name: "Spaghetti Bolognese",
+    ingredients: ["spaghetti", "ground beef", "tomato sauce"],
+  },
+  {
+    id: 2,
+    name: "Chicken Curry",
+    ingredients: ["chicken", "curry powder", "coconut milk"],
+  },
+];
+
+export default recipes;
